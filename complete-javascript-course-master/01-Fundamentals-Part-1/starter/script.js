@@ -102,7 +102,7 @@ const bmiJohnData2 = johnMassData2 / johnHeightData2 ** 2;
 const markHigherBMIData2 = bmiMarkData2 > bmiJohnData2
 
 console.log(markHigherBMIData2)
-*/
+
 
 const firstName = 'Bernard';
 const job = 'teacher';
@@ -114,3 +114,43 @@ console.log(bernard);
 
 const bernardNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 console.log(bernardNew);
+
+
+const age = 15;
+
+if (age >= 18) {
+  console.log('Sarah can start driving 🚗');
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 2001;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
+
+
+//Data 1
+const markMassData1 = 78;
+const markHeightData1 = 1.69;
+const johnMassData1 = 92;
+const johnHeightData1 = 1.95;
+
+const bmiMarkData1 = markMassData1 / markHeightData1 ** 2;
+const bmiJohnData1 = johnMassData1 / johnHeightData1 ** 2;
+
+const markHigherBMIData1 = bmiMarkData1 > bmiJohnData1
+
+if (bmiMarkData1 > bmiJohnData1) {
+  console.log(`Mark's BMI ${bmiMarkData1} is higher than John's ${bmiJohnData1}!`)
+} else {
+  console.log(`John's BMI ${bmiJohnData1} is higher than Mark's ${bmiMarkData1}!`)
+}
+*/
