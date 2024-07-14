@@ -252,42 +252,51 @@ if (bmiMarkData1 > bmiJohnData1) {
 // }
 
 // Switch Statements
-const day = 'thursday';
+// const day = 'thursday';
 
-switch (day) { 
-  case 'monday':
-    console.log('Plan course structure');
-    console.log('Go to coding meetups');
-    break;
-  case 'tuesday':
-    console.log('Prepare theory videos');
-    break;
-  case 'wednesday':
-  case 'thursday':
-    console.log('Write code examples');
-    break;
-  case 'friday':
-    console.log('Record videos');
-    break;
-  case 'saturday':
-  case 'sunday':
-    console.log('Enjoy the weekend :D');
-    break;
-  default:
-    console.log('Not a valid day');
-}
+// switch (day) {
+//   case 'monday':
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetups');
+//     break;
+//   case 'tuesday':
+//     console.log('Prepare theory videos');
+//     break;
+//   case 'wednesday':
+//   case 'thursday':
+//     console.log('Write code examples');
+//     break;
+//   case 'friday':
+//     console.log('Record videos');
+//     break;
+//   case 'saturday':
+//   case 'sunday':
+//     console.log('Enjoy the weekend :D');
+//     break;
+//   default:
+//     console.log('Not a valid day');
+// }
 
-if (day === 'monday') {
-  console.log('Plan course structure');
-  console.log('Go to coding meetups');
-} else if (day === 'tuesday') {
-  console.log('Prepare theory videos');
-} else if (day === 'wednesday' || 'thursday') {
-  console.log('Write code examples');
-} else if (day === 'friday') {
-  console.log('Record videos');
-} else if (day === 'saturday' || 'sunday') { 
-  console.log('Enjoy the weekend :D');
-} else {
-  console.log('Not a valid day');
-}
+// if (day === 'monday') {
+//   console.log('Plan course structure');
+//   console.log('Go to coding meetups');
+// } else if (day === 'tuesday') {
+//   console.log('Prepare theory videos');
+// } else if (day === 'wednesday' || 'thursday') {
+//   console.log('Write code examples');
+// } else if (day === 'friday') {
+//   console.log('Record videos');
+// } else if (day === 'saturday' || 'sunday') {
+//   console.log('Enjoy the weekend :D');
+// } else {
+//   console.log('Not a valid day');
+// }
+
+let tip;
+let bill = 275;
+ 
+bill > 50 < 300 ? tip = bill * 15 / 100 : tip = bill * 20 / 100
+ 
+// bill >= 50 && bill <= 300 ? tip = bill * 15 / 100 : tip = bill * 20 / 100
+
+console.log(`the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
