@@ -193,8 +193,101 @@ if (bmiMarkData1 > bmiJohnData1) {
 //   console.log('Height is undefined');
 // }
 
-const age = '18';
+// const age = '18';
 
-if (age === 18) console.log('You just became an adult (strict)');
+// if (age === 18) console.log('You just became an adult (strict)');
 
-if (age == '18') console.log('You just became an adult  (loose)');
+// if (age == '18') console.log('You just became an adult  (loose)');
+
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   console.log('Cool! 23 is an amazing number!');
+// } else if (favourite === 7) {
+//   console.log('Cool! 7 is an awesome number!');
+// } else if (favourite === 9) {
+//   console.log('Cool! 9 is an awesome number!');
+// } else {
+//   console.log('Number is not 23 or 7 or 9');
+// }
+
+// if (favourite !== 23) console.log('Why not 23?')
+
+// logical operators
+// const hasDriversLicense = true;
+// const hasGoodVision = false;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log('Sara is able to drive')
+// } else {
+//   console.log('Someone else should drive');
+// }
+
+// const isTired = true;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log('Sara is able to drive');
+// } else {
+//   console.log('Someone else should drive');
+// }
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// console.log(scoreDolphins);
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//   console.log('Dolpins are the winning Team');
+// } else if (scoreKoalas > scoreDolphins) {
+//   console.log('Koalas are the winning Team');
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log('Draw');
+// }
+
+// Switch Statements
+const day = 'thursday';
+
+switch (day) { 
+  case 'monday':
+    console.log('Plan course structure');
+    console.log('Go to coding meetups');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record videos');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend :D');
+    break;
+  default:
+    console.log('Not a valid day');
+}
+
+if (day === 'monday') {
+  console.log('Plan course structure');
+  console.log('Go to coding meetups');
+} else if (day === 'tuesday') {
+  console.log('Prepare theory videos');
+} else if (day === 'wednesday' || 'thursday') {
+  console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record videos');
+} else if (day === 'saturday' || 'sunday') { 
+  console.log('Enjoy the weekend :D');
+} else {
+  console.log('Not a valid day');
+}
