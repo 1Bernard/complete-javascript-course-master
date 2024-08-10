@@ -26,3 +26,22 @@
 // const appleOrangeJuice = foodProcessor(2, 4);
 // console.log(appleOrangeJuice);
 
+//function declaration
+// function calcAge1(birthYear) { 
+//   return 2037 - birthYear; 
+// }
+
+// const age1 = calcAge1(1996);
+
+// //function expression
+// const calcAge2 = function (birthYear) { 
+//   return 2037 - birthYear;
+// }
+
+// const age2 = calcAge2(1996);
+
+// console.log(age1, age2);
+
+// Arrow function
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1996);
