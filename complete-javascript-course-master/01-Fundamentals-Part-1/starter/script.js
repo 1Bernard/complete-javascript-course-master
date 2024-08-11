@@ -193,6 +193,7 @@ if (bmiMarkData1 > bmiJohnData1) {
 //   console.log('Height is undefined');
 // }
 
+<<<<<<< HEAD
 // const age = '18';
 
 // if (age === 18) console.log('You just became an adult (strict)');
@@ -300,3 +301,10 @@ bill > 50 < 300 ? tip = bill * 15 / 100 : tip = bill * 20 / 100
 // bill >= 50 && bill <= 300 ? tip = bill * 15 / 100 : tip = bill * 20 / 100
 
 console.log(`the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+=======
+const age = '18';
+
+if (age === 18) console.log('You just became an adult (strict)');
+
+if (age == '18') console.log('You just became an adult  (loose)');
+>>>>>>> 0d34ffab072ba19a6148ff13af7127f3ba625907
